@@ -2,13 +2,13 @@ import React from 'react'
 
 import Img from './components/Img'
 
-import actors from './img/actors.png'
-import MaleSMV from './img/Male-SMV-chart-long-term.png'
-import SMV from './img/SMV.jpg'
-import FemaleSMV from './img/female-long-term-SMV-pie-chart.png'
-import FemaleAge from './img/woman-age.jpg'
-import social from './img/social-MF.png'
-import baby from './img/throat-baby.png'
+// import actors from './img/actors.png'
+// import MaleSMV from './img/Male-SMV-chart-long-term.png'
+// import SMV from './img/SMV.jpg'
+// import FemaleSMV from './img/female-long-term-SMV-pie-chart.png'
+// import FemaleAge from './img/woman-age.jpg'
+// import social from './img/social-MF.png'
+// import baby from './img/throat-baby.png'
 
 
 class Text extends React.Component {
@@ -18,7 +18,7 @@ class Text extends React.Component {
         Востребованность человека в обществе напрямую связана с его способностью производить жизнеспособное потомство
       </h2>
 
-      <Img src={actors} center >
+      <Img src={`https://sun9-36.userapi.com/impf/K163oUay0cb-loG_V3i4oEcRLwspOEVZhXiWDw/ihTu50Ws4kY.jpg?size=1440x810&quality=96&proxy=1&sign=455b8c254edb66976e2ba0f034bbb733`} center >
         (рис.1) Востребованность актёров в зависимости от пола и возраста
       </Img>
 
@@ -27,12 +27,12 @@ class Text extends React.Component {
       </div>
       <div className="row">
         <div className="col-md col-12">
-          <Img src={MaleSMV}>
+          <Img src={`https://sun9-39.userapi.com/impf/hOZ5yCI9H-CV83m-HVcGpR8cP3HwbLOv8jZZBQ/0QZhyHZ2ITg.jpg?size=1200x800&quality=96&proxy=1&sign=fc30cbc077b674ce6cdb2ce75481a919`}>
             (рис.2) Факторы влияющие на стабильность долгосрочных отношений для мужчин
           </Img>
         </div>
         <div className="col-md col-12">
-          <Img src={SMV}>
+          <Img src={`https://sun9-69.userapi.com/impf/v7israkvJNGFQyaMSs31m5llF5KmyAdlZVD8Qg/pOt1AH7RYAs.jpg?size=1000x490&quality=96&proxy=1&sign=c51af801b90eb5b09e9df95bdcc92e95`}>
             (рис.3) Зависимось SMV от пола и возраста
           </Img>
         </div>
@@ -43,12 +43,12 @@ class Text extends React.Component {
       </div>
       <div className="row">
         <div className="col-md col-12">
-          <Img src={FemaleSMV}>
+          <Img src={`https://sun9-42.userapi.com/impf/OqkucaRKm-4ua_wX8IAoLwVLAW4DkBvMRy1J_Q/1naMHGvgq8Q.jpg?size=1200x800&quality=96&proxy=1&sign=28e6a387b2efd1eae335198e041c720b`}>
             (рис.4) Факторы влияющие на стабильность долгосрочных отношений для женщин
           </Img>
         </div>
         <div className="col-md col-12">
-          <Img src={FemaleAge}>
+          <Img src={`https://sun9-35.userapi.com/impf/qHU7hXwp8MOHuU_FMmigrfH3TbQHFuILClBBtQ/k7V03V1HAYA.jpg?size=1280x1147&quality=96&proxy=1&sign=84e8b31e3d0da888c6c6a1f01561f218`}>
             (рис.5) Привлекательность женщин в зависимости от возраста. Как видно, он очень похож на рис.1 и рис.3
           </Img>
         </div>
@@ -57,14 +57,14 @@ class Text extends React.Component {
       <div className="">
         Востребованность мужчин 14-70 лет зависит от дохода и статуса, востребованность женщин 14-45 лет зависит от признаков фертильности. Достаточно оглядеться вокруг, чтобы увидеть, как этот простой факт определяет культуру и роли в Обществе: Молодые девушки с папиками, Молодая Мадонна с младенцем от статусного покровителя, Гаремы правителей, богачей и знаменитостей, Рынок проституции на 90% состоит из женщин, «Женские» профессии — работа с детьми. И низкая представленность женщин в других профессиях., «Работа для молодых девушек», Мужчина должен «добиться», Так называемая объективация женщин — сведение женщины к объекту, ценность которого определяется фертильностью, Если вы находитесь в репродуктивном возрасте, ваша статистика просмотров от М и Ж в соцсетях выглядит примерно как рис. 6, Открытая одежда на женщинах для демонстрации молодости и фертильности, Индустрия красоты (например, спонсор этого мероприятия VICHY) для подчёркивания фертильности, «Женщин бить нельзя», «Ключики и замочки» — хороший ключ может содержать много замочков, плохой замочек может выращивать чужого ребёнка за ваш счёт или получить развод за измену и остаться без алиментов для потомства», «ЯЖМАТЬ» перечислять можно бесконечно.
       </div>
-      <Img src={social} center >
+      <Img src={`https://sun9-28.userapi.com/impf/CM04GLlWVsGx9tOsRydFHWhOfwRpWakRDS5knQ/aXPQQ9-4UWA.jpg?size=1493x804&quality=96&proxy=1&sign=1474441ffbb33726510fe24870e790f6`} center >
         (рис.6) Если вы находитесь в репродуктивном возрасте, ваши статистики соцсетей выглядят примерно так: представлены мужчины всех возрастов, а у женщин пик на пике репродуктивного возраста.
       </Img>
 
       <div className="">
         Иными словами, менопауза — это не столько болезненный гормональный процесс, сколько болезненный психологический процесс резкой потери востребованности в Обществе. Это путь в одну сторону. Это то с чем невозможно смириться. Это резко осознаваемая конечность. Единственный совет о менопаузе, который стоит дать женщинам — сделайте ВСЕ свои социальные дела как можно раньше. И, в первую очередь, как можно раньше заведите детей.
       </div>
-      <Img src={baby} center >
+      <Img src={`https://sun9-66.userapi.com/impf/lmfgBNTT12DY1QFysbDpwogx9UW3x6rJub3SFw/1qM_O__741U.jpg?size=1667x944&quality=96&proxy=1&sign=56eefb5757399bcfc878a647e9f44150`} center >
         (рис.7) Заводи детей, пока не поздно!
       </Img>
 
